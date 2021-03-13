@@ -1,3 +1,8 @@
+<!--
+Required:
+1. Two Sections for Landing Page
+2. Footer with Copyright Info
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,27 +10,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <script src="https://kit.fontawesome.com/05e028396a.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container"></div>
+    <div id="container">
+        <!-- Navigation Bar and Header -->
     <header>
         <nav>
-            <h1>Ibrahim's Consortium of Web Development Services</h1>
+            <h1 id ="nav-heading">Consortium of Web Services</h1>
             <ul id="left-menu">
-                <li class="listItems">Ibrahim</li>
+                <li class="listItems">Our Story</li>
                 <li class="listItems">Web Development Services</li>
-                <li class="listItems">Contact</li>
+                <li class="listItems">Portfolio</li>
             </ul>
             <ul id="right-menu">
-                <li class="iconItems">Icon1</li>
-                <li class="iconItems">Icon2</li>
+                <li class="iconItems"><i class="fas fa-envelope"></i></li>
+                <li class="iconItems">
+                    <i class="fas fa-phone-square"></i>
+                    <!-- <i class="fas fa-bars"></i> -->
+                </li>
             </ul>
         </nav>
    </header>
+   <!-- Sections  -->
    <main>
-       <section>
-           <h1></h1>
-           <img src="" alt=""><button></button></section>
+       <section id="showcase">
+           <h1 id="section1-h1">Grow your business with a beautiful website.</h1>
+        <p id="section1-p">Intentional and strategic user experience has the potential to raise conversion rates by as much as 400%. <br> When you think about websites, you may think that having a website is enough. But that's only <u>half-true.</u> Your web presence, as well as your brand's identity and message are significantly important to <u>your success and benefit.</u> You have a great product, a great service, or you're changing the world with a brand new idea - but when your website looks like it was made in 2002, people will judge the merit of your work based off your website alone. <br>
+        <b>We think you deserve better.</b>
+    </p>
+    <button id="btn-cta"> <a href="#contact">Do you want a beautiful lead generating website?</a>
+    </button>
+       </section>
+
+       <!-- <section id= "Services">
+        <h1> Our <i>Awwward</i> Winning Services</h1>
+        <figure class = "cards">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdaproim.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fwebdesign-1.png&f=1&nofb=1" alt="" class="img-card">
+            <figcaption>
+            Fullstack Web Applications
+            </figcaption>
+        </figure>
+
+        <figure class ="cards">
+            <img src="http://www.dingocreative.com/wp-content/uploads/2017/04/Brand-Identity-etc-2.jpg" alt="" class ="img-card">
+            <figcaption>
+                Branding
+            </figcaption>
+        </figure>
+        <figure class ="cards">
+            <img src="https://www.x-cart.com/wp-content/uploads/2019/11/what_is_social_media_marketing.png" alt="" class ="img-card3">
+            <figcaption>
+                Social Media Marketing
+            </figcaption>
+        </figure>
+       </section> -->
+       <section class="home-cards">
+      <div>
+        <img src="http://www.dingocreative.com/wp-content/uploads/2017/04/Brand-Identity-etc-2.jpg" alt="" class="img-card">
+        <h3>Branding</h3>
+        <p>
+            How the world views your company's digital presence is a direct factor to how succesful your lead generation will be.
+        </p>
+        <a href="#">Learn More about Consortium Consulting <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdaproim.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fwebdesign-1.png&f=1&nofb=1" alt="" class="img-card">
+        <h3>Web Development & Design</h3>
+        <p>
+Consortium's web development experts beautify your website and help you generate more leads.
+        </p>
+        <a href="#">Learn More about Consortium Engineering <i class="fas fa-chevron-right"></i></a>
+      </div>
+
+      <div>
+        <img src="https://www.x-cart.com/wp-content/uploads/2019/11/what_is_social_media_marketing.png" alt="" class="img-card3">
+        <h3>Social Media Marketing</h3>
+        <p>
+            Engage with your audience and unlock the potential of the future of social networking.
+        </p>
+        <a href="#">Learn More about Consortium Digital <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
    </main>
+   <!-- Footer -->
+   <footer id="contact">
+       <ul id = "ul-footer-left">
+           <li>LinkedIn</li>
+           <li>GitHub</li>
+       </ul>
+       <ul id="ul-footer-center">
+           <li>
+            Made by <u>Ibrahim Althani</u>
+            </li>
+       </ul>
+
+   </footer>
+</div>
 </body>
 </html>
