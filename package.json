@@ -1,0 +1,25 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "In this project, I am experimenting with different styling options.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/althani-sa/consortium-of-web-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/althani-sa/consortium-of-web-services/issues"
+  },
+  "homepage": "https://github.com/althani-sa/consortium-of-web-services#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
